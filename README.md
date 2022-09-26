@@ -20,16 +20,19 @@ BigSurvey is licensed under [ODC-BY](https://opendatacommons.org/licenses/by/1-0
 When using the BigSurvey dataset in a product or service, or including data in a redistribution, please cite the following paper:
 
 ```
-Shuaiqi LIU, Jiannong Cao, Ruosong Yang, Zhiyuan Wen. "Generating a Structured Summary of Numerous Academic Papers: Dataset and Method." Proceedings of the the 31st International Joint Conference on Artificial Intelligence and the 25th European Conference on Artificial Intelligence. 2022.
-```
-
-```
-@inproceedings{liu2022generating,
-  title={Generating a Structured Summary of Numerous Academic Papers: Dataset and Method.},
-  author={Liu, Shuaiqi and Cao, Jiannong and  Yang, Ruosong and Wen, Zhiyuan},
-  booktitle={IJCAI},
-  pages={4259--4265},
-  year={2022}
+@inproceedings{ijcai2022p591,
+  title     = {Generating a Structured Summary of Numerous Academic Papers: Dataset and Method},
+  author    = {LIU, Shuaiqi and Cao, Jiannong and Yang, Ruosong and Wen, Zhiyuan},
+  booktitle = {Proceedings of the Thirty-First International Joint Conference on
+               Artificial Intelligence, {IJCAI-22}},
+  publisher = {International Joint Conferences on Artificial Intelligence Organization},
+  editor    = {Lud De Raedt},
+  pages     = {4259--4265},
+  year      = {2022},
+  month     = {7},
+  note      = {Main Track},
+  doi       = {10.24963/ijcai.2022/591},
+  url       = {https://doi.org/10.24963/ijcai.2022/591},
 }
 ```
 
