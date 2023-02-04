@@ -8,6 +8,7 @@
 
 A large-scale dataset for numerous academic papers summarization
 
+Paper [link](https://www.ijcai.org/proceedings/2022/591)
 
 ## Download
 
