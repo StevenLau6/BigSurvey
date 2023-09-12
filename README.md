@@ -37,3 +37,20 @@ When using the BigSurvey dataset in a product or service, or including data in a
 }
 ```
 
+## FAQ
+
+Q1: Does each line of src.txt​ and tgt.txt​ files contain the source documents and the target summary, respectively?
+
+A1: Yes
+
+Q2: What is the "story_separator_special_tag"​ in the src.txt files 
+
+A2: "story_separator_special_tag" separates the input documents in each example.
+
+Q3: Where do the abstracts of the reference papers come from?
+
+A3: We collect them from Microsoft Academic Service and Semantic Scholar.
+
+Q4: Why truncate the input documents?
+
+A4: We truncated the reference papers' abstracts to 200 words because the data sources (Microsoft Academic Service and Semantic Scholar, especially the first one) cannot split the abstract and introduction well. In their APIs' responses, some "abs" can be longer than tens of thousands of words. We think the truncation is necessary. Otherwise, the longest reference abstracts will occupy the major content of the inputs, which is unfair to other reference papers. Most papers' abstracts are within 200-300 words. 
